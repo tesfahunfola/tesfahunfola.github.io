@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pesonal Portifolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e4e00f2cf2.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="conatainer">
+
+            <nav>
+                <img src="Images/logo.jpeg" class="logo">
+
+                <ul id="sidemenu">
+                    <li> <a href="#header">Home</a></li>
+                    <li> <a href="#about">About</a></li>
+                    <li> <a href="#services">Services</a></li>
+                    <li> <a href="#portfolio">Portfolio</a></li>
+                    <li> <a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-sharp fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Software Engineer</p>
+                <h1>Hi, I'm <span>Tesfahun</span> Fola <br> from Ethiopia
+                </h1>
+
+
+            </div>
+        </div>
+
+    </div>
+
+
+    <!------------------------ about section ------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.JPG">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+
+                    <p>I am a computer enthusiast currently pursuing Software Engineering at The African Leadership
+                        Univeristy and learning to become a Servant Leader. Moreover, I'm an aspiring web developer with
+                        experience in HTML, CSS, and JavaScript. I'm passionate about
+                        creating engaging web experiences and improving front-end performance. As an Aspire Institute
+                        Fellow, I've honed my leadership and communication skills, and I've explored the creative
+                        potential of artificial intelligence. I'm dedicated to making a positive impact, and I'm excited
+                        to collaborate on innovative projects.
+                    </p>
+
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Web Development</span><br>Building android apps</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>July 2023 - Aug 2023, SYNC INTERN'S, Uttar Pradesh, India</span><br>Web
+                                Development Intern <br> Responsibilities: <br>
+
+                                Assisting in writing and structuring HTML and CSS code to create web page layouts and
+                                styles.
+                                Learning and implementing JavaScript to add interactive features and functionality to
+                                web pages, under the guidance of more experienced developers.
+                                Learning about and implementing techniques to improve front-end performance, such as
+                                optimizing images and reducing page load times. </li>
+                            <li><span>Jan 2023 - Jun 2023 (6 mos), Remote, Apprenticeship</span><br>Aspire Institute
+                                Fellow<br>Aspire Leaders Program is a fully funded leadership development progtam
+                                founded by Harvard Business school professors with the mission of transforming the lives
+                                of low-income, first generation college students around the world and enables them to
+                                make a positive impact in their community. <br>
+
+                                Skills: <br>
+
+                                Founddation in leadership
+
+                                Critical Thinking
+
+                                Communication</li>
+                            <li><span>Sep 2022 - Apr 2023, Remote; Los Angeles, USA</span><br>TRAIN; Introduction to
+                                Artificial Intelligence Fellow <br>Responsibilities: <br>
+
+                                Exploring the creative potential of artificial intelligence and machine learning by
+                                using the DALL-E 2 neural network.
+                                Developing and deploying machine learning models for real-world applications.</li>
+
+                            <li><span>October, 2020 – April, 2022, Wolaita Sodo, Ethiopia</span><br>Teaching Assistant
+                                at
+                                Don Bosco Catholic School <br>Responsibilities: <br>
+
+                                I gave free tutorials, supportive education and mentorship service in STEM subjects for
+                                more
+                                than 200 regional examinees and middle school students. Accordingly, the students scored
+                                great marks in regional examinations which were suspended for COVID-19 pandemic at
+                                academic
+                                year 2020/21.
+                                I devised an enjoyable learning environment.
+                            </li>
+                        </ul>
+
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Sep, 2022 - Feb 2026. Kigali, Rwanda</span><br>BSc(Hons) - Software Engineering
+                                <br>
+                                African Leadership University (ALU)
+                            </li>
+                            <li><span>May, 2023 - Current. Hybrid</span><br>Data Analytics, ALX</li>
+                            <li><span>Nov, 2017 - Dec 2021. Wolaita, Ethiopia.</span><br>Wolaita Liqa School (High
+                                school Diploma.)</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--------------------- Services ------------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p> Hello World</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-stack-overflow"></i>
+                    <h2>Web Design</h2>
+                    <p> Hello World</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Design</h2>
+                    <p> Hello World</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <!--------------------------------Portfolio------------------------------------------------------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.png">
+                    <div class="layer">
+                        <h3>Snake Game App Demo</h3>
+                        <p>Snake Game App is a classic and addictive gaming app that brings back the nostalgia of the
+                            iconic snake game in a modern and engaging way. Test your reflexes and strategic skills as
+                            you guide the snake to collect food.</p>
+                        <a href="https://github.com/tesfahunfola/Snake_Game"><i
+                                class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.png">
+                    <div class="layer">
+                        <h3>Apple Website replica</h3>
+                        <p>The Apple Replica Website Project is a web development endeavor aimed at creating a faithful
+                            reproduction of Apple Inc.'s official website. This project is designed to showcase my web
+                            development and design skills by mimicking the layout, aesthetics, and functionality of
+                            Apple's website.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.jpeg">
+                    <div class="layer">
+                        <h3>Web Calculator App</h3>
+                        <p>The Web Calculator App is a simple yet essential web application that allows users to perform
+                            mathematical calculations through a user-friendly and interactive interface. This project
+                            aims to provide a practical example of building a web-based calculator with HTML, CSS, and
+                            JavaScript.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+
+    </div>
+
+
+    <!----------------------------------- Contact---------------------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> t.zanafola@alustudent.com</p>
+                    <p><i class="fa-solid fa-phone"></i> +250791703876</p>
+                    <div class="social-icons">
+
+                        <a href="https://www.instagram.com/tesfahun_fola/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://x.com/tesfahunfola?t=F7w26RN2u1dkWvL0egalvA&s=09"><i
+                                class="fa-brands fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.linkedin.com/in/tesfahun-fola-443b48216/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="Images/Tesfahun_Fola Resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+            <p>Copyright &copy; Tesfahun. All rights reserved!</p>
+        </div>
+
+    </div>
+    <script>
+
+
+
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+
+    <script>
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxcVPrYzJXmEgKgKWXmipdHvCoGYEMkJHaxoGBaLunmq_08LNBEPUp79SEySomAxoax/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script> -->
+
+
+</body>
+
+</html>
